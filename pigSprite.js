@@ -2,6 +2,8 @@ var pigSprite;
 var obstacle;
 var backgroundSprite;
 var foregroundSprite;
+var bottomBaconSprite;
+var topBaconSprite;
 
 function Sprite(img, x, y, width, height) {
     this.img = img;

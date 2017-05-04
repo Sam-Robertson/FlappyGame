@@ -158,7 +158,7 @@ function Pig() {
         renderingContext.rotate(this.rotation);
 
         var n = this.animation[this.frame];
-        //renderingContext.clearRect(0, 0, canvas.width, canvas.height); I think this is why there was a white rectangle
+        // renderingContext.clearRect(0, 0, canvas.width, canvas.height);
 
         pigSprite[n].draw(renderingContext, 2, 2);
 
